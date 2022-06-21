@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest src/test",
-    "cli": "node src/cli.js ./arquivos/texto1.md",
+    "cli": "node src/cli.js ./arquivos/texto1.md validate",
     "practical": "node src/practicalCli.js ../arquivos/"
   },
   "repository": {
