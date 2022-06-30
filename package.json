@@ -1,0 +1,29 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Project created to put in practice the Alura's course \"NodeJS: criando sua primeira biblioteca\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/test",
+    "cli": "node src/cli.js ./arquivos/texto1.md validate",
+    "practical": "node src/practicalCli.js ../arquivos/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo-moura/node-markdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardo-moura/node-markdown/issues"
+  },
+  "homepage": "https://github.com/ricardo-moura/node-markdown#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
